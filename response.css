@@ -1,4 +1,4 @@
-@media screen and (max-width: 700px) {
+@media screen and (min-width: 300px) {
     body{
         background-color: #3d405b;
         align-items: center;
@@ -27,7 +27,7 @@
     .imag1{
     
     animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
-    height: 300px;
+    height: 350px;
     border-radius: 200px;
     overflow: hidden;
     }
@@ -44,19 +44,20 @@
     }
     
     .divso8er{
+        padding: 30px;
         display: flex;
     }
     
     
     .shm{
         text-align: center;
-        padding: 5px;
+        padding: 0px;
         transition-property: width background-color text;
         text-decoration: none;
         justify-content: center;
         align-content: center;
         display: flex;
-        margin-right: 20px  ;
+        
         align-content: center;
         text-transform: uppercase;
         transition-duration: 0.5s;
@@ -86,11 +87,15 @@
     }
     
     .nhya{
-        text-align: center; font-size: 9px; margin: 100px;
+        text-align: center; font-size: 8px; 
+    }
+
+    .awl{
+        margin: 30px; color: white; margin-top: 60px; font-size: 30px;
     }
     
     .awlklmna{
-        max-width: 900px; font-size: 25px;  color: white;
+        max-width: 900px; font-size: 25px;  color: white; margin: 30px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
         text-wrap: balance;
     }
